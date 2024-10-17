@@ -30,7 +30,7 @@ MonocularInertialSlamNode::~MonocularInertialSlamNode()
     m_SLAM->Shutdown();
 
     // Save camera trajectory
-    // m_SLAM->SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
+    m_SLAM->SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
 }
 
 cv::Mat MonocularInertialSlamNode::GetImage(const ImageMsg::SharedPtr msg)
