@@ -22,7 +22,7 @@ Camera.width: 1280
 Camera.height: 720
 
 # Image scale, it changes the image size to be processed (<1.0: reduce, >1.0: increase)
-Camera.imageScale: 2.0
+Camera.imageScale: 1.0
 
 # Camera frames per second 
 Camera.fps: 30.0
